@@ -36,26 +36,25 @@ For the purpose of applicable data protection laws, Collectable Moments is the d
 
 We will never sell your personal data, never have, never will.
 
-Our guiding principle is to collect only what we need. Here's what
-that means in practice:
+Our guiding principle is to collect only what we need. Here's what that means in practice:
 
 #### 2a. Account Information
 
-We do not collect any personal data unless you voluntarily share that information with us.
+We collect different amounts of data depending on how you use Collectable Moments. We do not collect any personal data unless you voluntarily provide it.
 
-When you sign up for Collectable Moments, we ask for identifying information such as your name and email address. That's so you can personalize your new account, and we can send you essential information about your account. We sometimes also give you the option to add a profile picture that displays in the service.
+As a **Publisher** you create and share content via a paid subscription. We collect your name, email address, and password (stored securely — never in plain text). You may optionally upload a profile photo. Billing information is described in Section 2b and content storage in Section 2c.
 
-We will not sell your personal data to third parties.
+As a **Subscriber** you access and follow Publisher content. We collect your name, email address, and password (stored securely — never in plain text). We also store your account status, email frequency preferences, notification preferences, and last access timestamp.
 
 #### 2b. Billing Information
 
-If you sign up for a paid subscription, you will be asked to provide your payment information and billing address. Credit card information is submitted directly to our payment processor and doesn't hit Collectable Moments servers. We store a record of the payment transaction, including the last 4 digits of the credit card number, for purposes of account history, invoicing, and billing support. We store your billing address so we can charge you for service, calculate any sales tax due, send you invoices, and detect fraudulent credit card transactions.
+If you sign up as a Publisher, you will be asked to provide your payment information and billing address. Credit card information is submitted directly to our payment processor and doesn't hit Collectable Moments servers. We store a record of the payment transaction, including the last 4 digits of the credit card number, for purposes of account history, invoicing, and billing support. We store your billing address so we can charge you for service, calculate any sales tax due, send you invoices, and detect fraudulent credit card transactions.
 
 #### 2c. Your Content
 
-We store on our servers the content you create and upload to your Collectable Moments account. This may include photos, videos, and written posts. This is so you can use the service as intended, for example, sharing memories privately with the people you invite. We keep this content as long as your account is active. If you delete your account, we'll delete the content within 60 days.
+We store on our servers the content you create and upload to your Collectable Moments account. This may include photos, videos, and written posts. This is so you can use the service as intended, for example, sharing memories privately with the Subscribers you invite. We keep this content as long as your account is active. If you delete your account, we'll delete the content within 60 days.
 
-When you choose to invite others to view your content, you agree that those individuals may view or otherwise access the personal data you share with them. We cannot control and are not liable for how invited users may use or share that information outside of the service.
+When you choose to invite Subscribers to view your content, you agree that those individuals may view or otherwise access the personal data you share with them. We cannot control and are not liable for how Subscribers may use or share that information outside of the service.
 
 #### 2d. Technical Data
 
@@ -326,6 +325,50 @@ required by law or compelled by a court order that we choose not to
 appeal. Furthermore, unless we receive a proper warrant, court order, or
 subpoena before the required preservation period expires, we will destroy
 any preserved copies of user data at the end of the preservation period.
+
+### Section 15 — State / International Law
+
+#### 15a — California Resident Notice at Collection
+
+If you are a California resident, the California Consumer Privacy Act, as amended by the California Privacy Rights Act of 2020 (“**CCPA**”), requires us to provide some additional information to California residents. This Section only applies to you if you are a California resident, although please note that this information and the rights afforded herein are the same as offered to our other users in our main Privacy Policy. This Section does not apply to personal information we collect from our employees and job applicants in their capacity as employees and job applicants, as such information practices are described in separate policies.
+
+The following chart details these activities:
+
+| **Category of personal information**                                                                                                              | **Purposes of use**                                                                                                                                                           | **Categories of Third Parties to Which We Discloses this Personal Information** | **Categories of Third Parties to Which We "Share" and "Sell" this Personal Information for Advertising/ Analytics Purposes** |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Contact information (such as your full name, phone number, email address)                                                                         | Provide the Services; Communicate with you; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention | Affiliated entities; Service providers; Entities for legal purposes             | We do not share/sell                                                                                                         |
+| Customer service interaction information (including optional surveys and when you ask for help)                                                   | Provide the Services; Communicate with you; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention | Affiliated entities; Service providers; Entities for legal purposes             | We do not share/sell                                                                                                         |
+| Product interaction information                                                                                                                   | Provide the Services; Communicate with you; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention | Affiliated entities; Service providers; Entities for legal purposes             | We do not share/sell                                                                                                         |
+| Internet network and device information (such as mobile device information, IP address, and information about your interaction with the services) | Provide the Services; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention                       | Affiliated entities; Service providers; Entities for legal purposes;            | We do not share/sell                                                                                                         |
+| Login information (such as your username and password)                                                                                            | Provide the Services; Comply with law or defend our legal rights; Security/fraud prevention; Comply with law or defend our legal rights                                       | Affiliated entities; Service providers; Entities for legal purposes             | We do not share/sell                                                                                                         |
+| Professional or employment information (such as the name and address of the company you work for and your title)                                  | Provide the Services; Communicate with you; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention | Affiliated entities; Service providers; Entities for legal purposes;            | We do not share/sell                                                                                                         |
+| Other information (any other information you choose to provide directly to us, including optional profile photos)                                 | Provide the Services; Communicate with you; Analyze use of and improve the services; With your consent; Comply with law or defend our legal rights; Security/fraud prevention | Affiliated entities; Service providers; Entities for legal purposes;            | We do not sell/share                                                                                                         |
+
+For more information about each category of personal information, purpose of use, and third parties to which we disclose personal information, please see the "What we collect and why," and "When we access or disclose you information" sections of our Privacy Policy.
+
+**Your Choices Regarding “Sharing” and “Selling”**: You have the right to opt out of our sale/sharing of your personal information for purposes of online analytics and advertising. Currently, we do not sell or share your data as defined by the CCPA and we have not done so over the past 12 months from the effective date of this Privacy Policy.
+
+**Other CCPA Rights.** If we ever offer any financial incentives in exchange for your personal information, we will provide you with appropriate information about such incentives.
+
+The CCPA also allows you to limit the use or disclosure of your “sensitive personal information” (as defined in the CCPA) if your sensitive personal information is used for certain purposes. Please note that we do not use or disclose sensitive personal information other than for business purposes for which you cannot opt out under the CCPA.
+
+Please see the “Your rights with respect to your information” section of our Policy above for information about the additional rights you have with respect to your personal information under California law and how to exercise them.
+
+Retention of Your Personal Information. Please see the “Retention Of Your Information” section belowof our Privacy Policy for more information.
+
+#### Shine the Light Disclosure
+
+The California "Shine the Light" law gives residents of California the right under certain circumstances to request information from us regarding the manner in which we disclose certain categories of personal information (as defined in the Shine the Light law) with third parties for their direct marketing purposes. We currently do not disclose your personal information to third parties for their own direct marketing purposes.
+
+#### 15b
+
+#### 15c
+
+#### 15d
+
+#### 15e
+
+#### 15f
 
 ### Section 16 — Changes to This Policy
 

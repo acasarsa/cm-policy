@@ -1,7 +1,9 @@
 # Collectable Moments — Privacy Policy Assembly Guide
-*Last updated: April 7, 2026*
+
+_Last updated: April 7, 2026_
 
 This guide serves three purposes:
+
 1. Track what's in the policy, where it came from, and why
 2. Track what was deliberately excluded and what triggers adding it
 3. Provide a change log for future policy updates
@@ -10,11 +12,14 @@ This guide serves three purposes:
 
 ## POLICY STRUCTURE — CURRENT STATE
 
-### Preamble / Promise *(top of page)*
+### Preamble / Promise _(top of page)_
+
 **Status:** Drafted — original
 **Source:** Original — inspired by Tinybeans' Promise format
 **Content:**
+
 > The Collectable Moments Promise
+>
 > - Your photos belong to you, always.
 > - Only people you invite can ever see them.
 > - We will never sell your data or use it to train AI.
@@ -22,9 +27,11 @@ This guide serves three purposes:
 ---
 
 ### Intro Paragraph
+
 **Status:** Working draft — revisit phrasing before launch
 **Source:** Original — collaboratively drafted
 **Content:**
+
 > Collectable Moments ("We", "our service") was built because your family's
 > memories shouldn't come with a price tag paid in data. We will never use
 > your photos or data to train AI models, sell to third parties, or target
@@ -38,9 +45,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Who This Applies To (Preamble)
+
 **Status:** Drafted
 **Source:** Adapted from 37signals preamble — B2B end user paragraphs removed
 **Content:**
+
 > This policy applies to visitors, prospective users, and registered users
 > of Collectable Moments. We refer collectively to these individuals as "you"
 > throughout this policy. If you are a California resident, please see
@@ -52,14 +61,27 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Definitions
+
 **Status:** Drafted — can expand over time
 **Source:** FamilyAlbum Section 3 (adapted) + original hybrid definition
 **Decisions:**
+
 - "Personal data" not "personal information" — more GDPR-aligned, used throughout
 - "Child" definition deliberately omitted — children are subjects not users
 - Three definitions only for now — expand as policy grows
+- "Personal data" is the standard term throughout — exceptions apply where
+  specific laws use their own defined terms (see Terminology Rule below)
+
+**Terminology Rule:** "Personal data" is used as the standard term throughout
+this policy. Exceptions apply where a specific law uses its own defined term,
+in which case the exact legal term is preserved verbatim:
+
+- "Sensitive personal information" — CPRA defined term
+- "Verifiable parental consent" — COPPA defined term
+- "Personal information" — used in CCPA boilerplate sections only
 
 **Content:**
+
 > (a) "Personal data" means any data which relates to you and from which
 > you can be identified, or is reasonably capable of being associated with
 > you. It may include contact details, other personal information as defined
@@ -75,14 +97,17 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 1 — Who We Are
+
 **Status:** Drafted — original
 **Source:** Original + FamilyAlbum Section 2 "data controller" language
 **Decisions:**
+
 - "Independently operated by our team" — avoids legal entity claims before LLC formed
 - "Data controller" line added for GDPR compliance
 - LLC transition noted — update when formed
 
 **Content:**
+
 > Collectable Moments is currently operated by our team based in the United
 > States. We intend to transition to a limited liability company (LLC) in
 > the future. This policy will be updated to reflect that change when it occurs.
@@ -95,55 +120,86 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 2 — What We Collect and Why
+
 **Status:** Drafted
 **Source:** Multiple — see subsections
 
-#### 2a. Account Information
-**Source:** 37signals "Identity and access" (adapted — company name, newsletter removed)
-+ Tinybeans 1(a) "we do not collect unless voluntarily provided"
-**Decisions:**
-- Profile picture included — feature exists in codebase
-- Newsletter/survey language removed — feature not built
+#### 2a. Data Collection by User Type
+
+**Source:** Original — tiered structure based on three user types
+**Three user tiers:**
+
+- **Website Visitor** — no account, browses public pages only, basic
+  technical data (IP, browser type) for security/operational purposes only
+- **Subscriber** — registered account holder who accesses and follows
+  Publisher content. Collects: name, email, password (bcrypt hashed),
+  optional avatar, notification preferences, last access timestamp.
+  Clickwrap at account creation.
+- **Publisher** — paid subscription, creates and shares content.
+  All Subscriber data plus uploaded content and billing information.
+  Clickwrap at account creation.
+  **Decisions:**
+- No anonymous viewer tier — all content viewers sign up with email
+- Website Visitors don't need a formal definition — brief mention in Section 2 only
+- Comments only for logged-in users (Subscribers and Publishers)
+- Profile picture optional for Subscribers and Publishers
 - "Personal data" used throughout not "personal information"
+- Newsletter/survey language removed — features not built
+- Geographic aggregation for ad spend NOT YET included — see Watchlist
+- Original source: 37signals "Identity and access" adapted for tiered structure
+  - Tinybeans 1(a) "we do not collect unless voluntarily provided"
 
 #### 2b. Billing Information
+
 **Source:** 37signals "Billing information" (adapted)
 **Decisions:**
+
 - "Doesn't hit our servers" line kept — important trust signal
 - Aggregate billing for marketing removed — don't do this
 
 #### 2c. Your Content
+
 **Source:** 37signals "Product interactions" (adapted)
-+ Original liability disclaimer (adapted from Tinybeans + BackThen)
-**Decisions:**
-- "Your Content" header chosen over "Photos and Media" — broader, covers written posts
-- Invited user liability disclaimer added — covers misuse of shared links
-- 60-day deletion timeline from 37signals
+
+- Original liability disclaimer (adapted from Tinybeans + BackThen)
+  **Decisions:**
+
+* "Your Content" header chosen over "Photos and Media" — broader, covers written posts
+* Invited user liability disclaimer added — covers misuse of shared links
+* 60-day deletion timeline from 37signals
 
 #### 2d. Technical Data
+
 **Source:** 37signals "Geolocation data" (adapted, shortened)
 **Decisions:**
+
 - "Spammy signups" language kept for plain language feel
 - IP not retained long-term — confirmed from Ryan's code analysis (Rack::Attack)
 
 #### 2e. Analytics
+
 **Status:** Placeholder — expand once confirmed with dev
 **Source:** Original
 **Decisions:**
+
 - In-house only, aggregate, never shared with third parties
 - Deliberately vague until analytics implementation confirmed
 
 #### 2f. Communications
+
 **Source:** 37signals "Voluntary correspondence" (first paragraph only)
 **Decisions:**
+
 - Surveys/customer interview paragraph removed — features not built yet
 
 ---
 
 ### Section 3 — What We Do Not Collect
+
 **Status:** Drafted — original
 **Source:** Original — core differentiator section
 **Content:**
+
 - No third-party behavioral analytics or tracking tools
 - No advertising data
 - No commercial user profiles
@@ -153,9 +209,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 4 — Third-Party Services
+
 **Status:** Drafted
 **Source:** FamilyAlbum contract restriction language (adapted)
 **Decisions:**
+
 - Two-tier structure: Required vs. Optional
 - Optional section deliberately empty — add when features built
 - Google Fonts note included temporarily — remove when self-hosted
@@ -169,9 +227,10 @@ for cleanliness. Update intro if optional services are added.
 | Email Delivery | Brevo (formerly Sendinblue) | Email address, name | Transactional emails only |
 | Payment Processing | [PAYMENT PROVIDER TBD] | Billing information | Subscription processing |
 
-**Optional Services:** *(empty until features built)*
+**Optional Services:** _(empty until features built)_
 
-**Google Fonts Note:** *(remove when self-hosted)*
+**Google Fonts Note:** _(remove when self-hosted)_
+
 > Our site currently loads fonts from Google's CDN, which results in your
 > IP address being sent to Google as a standard browser request. We are in
 > the process of self-hosting these fonts to eliminate this.
@@ -179,9 +238,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 5 — Cookies
+
 **Status:** Drafted
 **Source:** Tinybeans definition + FamilyAlbum Section 9 structure + original cookie table
 **Decisions:**
+
 - Definition describes only what cookies do ON THIS SITE not generally
 - No third-party cookie language — none used
 - Actual cookies from Ryan's code analysis
@@ -195,29 +256,35 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 6 — Account Holders
+
 **Status:** Drafted
 **Source:** Tinybeans Section 8 (18+ language) + FamilyAlbum Section 12 (COPPA)
-+ BackThen (age of majority concept, adapted to plain US English)
-**Decisions:**
-- 18+ for account holders — consistent with Tinybeans
-- Parental permission carve-out included — allows teens to view family photos
-- "Age of majority" language avoided — too British
-- "Children" used sparingly — once in this section only
-- "Minors" only in boilerplate sections
-- COPPA "verifiable parental consent" term kept exactly — signals legal awareness
-- Under-13 line included — necessary since parental carve-out opens door to under-18s
+
+- BackThen (age of majority concept, adapted to plain US English)
+  **Decisions:**
+
+* 18+ for account holders — consistent with Tinybeans
+* Parental permission carve-out included — allows teens to view family photos
+* "Age of majority" language avoided — too British
+* "Children" used sparingly — once in this section only
+* "Minors" only in boilerplate sections
+* COPPA "verifiable parental consent" term kept exactly — signals legal awareness
+* Under-13 line included — necessary since parental carve-out opens door to under-18s
 
 ---
 
 ### Section 7 — Your Commitments
+
 **Status:** Drafted
 **Source:** BackThen Section 10 (adapted)
 **Decisions:**
+
 - Clickwrap framing — "by creating an account and agreeing" not "by using the service"
 - Covers both age confirmation and content rights
 - Deliberately short — BackThen's version was longer but this covers what matters
 
 **Content:**
+
 > By creating an account and agreeing to this Privacy Policy, you confirm
 > that you are 18 years of age or older, or that you have the express
 > permission of a parent or legal guardian. You also confirm that you have
@@ -227,9 +294,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 8 — Data Security
+
 **Status:** Drafted
 **Source:** 37signals "How we secure your data" + dev codebase specifics
 **Decisions:**
+
 - bcrypt password hashing called out explicitly — from code analysis
 - Log filtering called out — sensitive params auto-filtered
 - Rate limiting mentioned — Rack::Attack confirmed in codebase
@@ -238,8 +307,10 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 9 — Content Visibility
+
 **Status:** Drafted — original
 **Decisions:**
+
 - "No content is publicly accessible" avoided — overclaim if shared links misused
 - "We are not responsible for how you or invited users share access" added
 - Covers both account holder and invited viewer misuse of links
@@ -247,9 +318,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 10 — Data Retention and Deletion
+
 **Status:** Drafted
 **Source:** 37signals "What happens when you delete content" + "Data retention"
 **Decisions:**
+
 - 30-day photo deletion timeline — from 37signals
 - 60-day account deletion timeline — from 37signals
 - Authentication tokens and technical logs added — from code analysis
@@ -258,9 +331,11 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 11 — Your Rights
+
 **Status:** Drafted
 **Source:** 37signals rights section (verbatim where possible) + original additions
 **Decisions:**
+
 - "Personal data" not "personal information" throughout
 - All GDPR (Articles 15-22) and CCPA rights included even if not applicable
 - "We never have and never will sell your personal data" parenthetical kept
@@ -274,18 +349,22 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 12 — Location of Data
+
 **Status:** Drafted
 **Source:** 37signals "Location of site and data" (verbatim, adapted)
 **Decisions:**
+
 - AWS region placeholder added
 - Pointer to GDPR boilerplate section added for EU/UK users
 
 ---
 
 ### Section 13 — Sharing and Disclosure
+
 **Status:** Drafted
 **Source:** 37signals "When we access or disclose your information" (adapted)
 **Decisions:**
+
 - Ad exclusion list sharing removed — no ads
 - Third-party integration paragraph removed — no integrations yet
 - Tax audit billing disclosure included — relevant once payments active
@@ -295,57 +374,201 @@ for cleanliness. Update intro if optional services are added.
 ---
 
 ### Section 14 — Government Requests
-**Status:** TO BE DRAFTED
-**Source:** → COPY: 37signals "When required under applicable law"
+
+**Status:** Drafted
+**Source:** 37signals "When required under applicable law"
 **Notes:** Best written version of this language by far. Keep verbatim.
 Replace 37signals company name with Collectable Moments.
 
 ---
 
 ### Section 15 — State and International Laws
+
 **Status:** TO BE ASSEMBLED — paste-ins from reference policies
 
-#### 15a — California (CCPA)
-→ COPY: 37signals California Notice at Collection (Document 6)
+**SECTION NUMBER MAPPING — FamilyAlbum to Collectable Moments:**
+When copying FamilyAlbum boilerplate, replace all cross-references to
+FamilyAlbum section numbers with our equivalent sections:
+
+| FamilyAlbum Reference | Their Section | Our Equivalent                      |
+| --------------------- | ------------- | ----------------------------------- |
+| Purpose of Processing | Section 5     | Section 2 — What We Collect and Why |
+| Your Rights           | Section 10    | Section 11 — Your Rights            |
+| CCPA / California     | Section 13.a  | Section 15a — California            |
+| Colorado              | Section 14    | Section 15b — Colorado              |
+| Oregon                | Section 15    | Section 15d — Oregon                |
+| Texas                 | Section 16    | Section 15e — Texas                 |
+| Utah                  | Section 17    | Section 15f — Utah                  |
+| Virginia              | Section 18    | Section 15c — Virginia              |
+| Canada                | Section 19    | Section 15g — Canada                |
+| EU/UK                 | Section 20    | Section 15h — EU/UK                 |
+| Australia             | Section 21    | Section 15i — Australia             |
+
+Also replace throughout:
+
+- "FamilyAlbum" → "Collectable Moments"
+- "the App" → "the service"
+- "support@family-album.com" → "[CONTACT EMAIL]"
+
+**CLAUDE CODE PROMPT FOR SECTION 15 ASSEMBLY:**
+
+```
+Read the assembly guide in claude-guides/
+
+Then assemble Section 15 — State and International Laws in
+drafts/cm-privacyPolicy-legal.md by:
+
+1. Colorado (15b) → copy Section 14 from references/family-album/pp-legal.md
+2. Virginia (15c) → copy Section 18 from references/family-album/pp-legal.md
+3. Oregon (15d) → copy Section 15 from references/family-album/pp-legal.md
+4. Texas (15e) → copy Section 16 from references/family-album/pp-legal.md,
+   remove the "NOTICE: We may sell your Sensitive Personal Information" line
+   and the paragraph beginning "The TDPSA defines the sale..." and replace
+   with "We do not sell your Personal Information."
+5. Utah (15f) → copy Section 17 from references/family-album/pp-legal.md
+6. Canada (15g) → copy Section 19 from references/family-album/pp-legal.md
+7. EU/UK (15h) → copy Section 20 from references/family-album/pp-legal.md
+8. Australia (15i) → copy Section 21 from references/family-album/pp-legal.md
+
+Leave Section 15a (California) as is — already completed.
+
+Throughout all sections make these replacements:
+- "FamilyAlbum" → "Collectable Moments"
+- "the App" → "the service"
+- "support@family-album.com" → "[CONTACT EMAIL]"
+
+For all cross-references to FamilyAlbum section numbers, replace
+with our equivalent sections using this mapping:
+- FamilyAlbum Section 5 → our Section 2
+- FamilyAlbum Section 10 → our Section 11
+- FamilyAlbum Section 13.a → our Section 15a
+- FamilyAlbum Section 14 → our Section 15b
+- FamilyAlbum Section 15 → our Section 15d
+- FamilyAlbum Section 16 → our Section 15e
+- FamilyAlbum Section 17 → our Section 15f
+- FamilyAlbum Section 18 → our Section 15c
+- FamilyAlbum Section 19 → our Section 15g
+- FamilyAlbum Section 20 → our Section 15h
+- FamilyAlbum Section 21 → our Section 15i
+
+Insert each completed subsection into the correct location in
+drafts/cm-privacyPolicy-legal.md after Section 14.
+```
+
 Update table categories to match our data collection.
 Include Shine the Light disclosure.
 Note: Much cleaner than Tinybeans version since we don't sell data.
 
 #### 15b — Colorado (CPA)
+
 → COPY: FamilyAlbum Full Policy, Section 14
 
 #### 15c — Virginia (VCDPA)
+
 → COPY: FamilyAlbum Full Policy, Section 18
 
 #### 15d — Oregon (OCPA)
+
 → COPY: FamilyAlbum Full Policy, Section 15
 
 #### 15e — Texas (TDPSA)
+
 → COPY: FamilyAlbum Full Policy, Section 16
-REMOVE: "NOTICE: We may sell your Sensitive Personal Information" — does not apply.
+REMOVE: "NOTICE: We may sell your Sensitive Personal Information"
+REMOVE: The entire paragraph beginning "The TDPSA defines the sale of Personal Information..."
+REPLACE WITH: "We do not sell your Personal Information." (borrowing from Utah/Virginia language)
+Note: Texas law requires explicit disclosure on selling — your statement that you don't sell is both legally compliant and stronger than FamilyAlbum's version.
 
 #### 15f — Utah (UCPA)
+
 → COPY: FamilyAlbum Full Policy, Section 17
 
 #### 15g — Canada (PIPEDA)
+
 → COPY: FamilyAlbum Full Policy, Section 19
 
 #### 15h — EU/UK (GDPR)
+
 → COPY: Tinybeans Section 14 for legal bases language
 → COPY: FamilyAlbum Section 20 for SCCs and rep contact structure
 Combine both — Tinybeans has better substance, FamilyAlbum has better structure.
 
 #### 15i — Australia (Privacy Act 1988)
+
 → COPY: FamilyAlbum Full Policy, Section 21
 
 ---
 
+```
+
+**INDIVIDUAL SECTION INSTRUCTIONS:**
+
+#### 15a — California (CCPA)
+→ ALREADY COMPLETED — leave as is
+Source was: 37signals California Notice at Collection
+Note: Much cleaner than Tinybeans version since we don't sell data.
+Includes Shine the Light disclosure.
+
+#### 15b — Colorado (CPA)
+→ COPY: FamilyAlbum Full Policy, Section 14
+Replace section cross-references per mapping above.
+
+#### 15c — Virginia (VCDPA)
+→ COPY: FamilyAlbum Full Policy, Section 18
+Replace section cross-references per mapping above.
+Note: Contains "We do not 'sell' your Personal Information" — keep this line.
+
+#### 15d — Oregon (OCPA)
+→ COPY: FamilyAlbum Full Policy, Section 15
+Replace section cross-references per mapping above.
+
+#### 15e — Texas (TDPSA)
+→ COPY: FamilyAlbum Full Policy, Section 16
+REMOVE: "NOTICE: We may sell your Sensitive Personal Information"
+REMOVE: The entire paragraph beginning "The TDPSA defines the sale of Personal Information..."
+REPLACE WITH: "We do not sell your Personal Information."
+Replace section cross-references per mapping above.
+Note: Texas law requires explicit disclosure on selling — your statement
+that you don't sell is both legally compliant and stronger than FamilyAlbum's version.
+
+#### 15f — Utah (UCPA)
+→ COPY: FamilyAlbum Full Policy, Section 17
+Replace section cross-references per mapping above.
+Note: Contains "We do not 'sell' your Personal Information" — keep this line.
+
+#### 15g — Canada (PIPEDA)
+→ COPY: FamilyAlbum Full Policy, Section 19
+Replace section cross-references per mapping above.
+
+#### 15h — EU/UK (GDPR)
+→ COPY: FamilyAlbum Section 20 as base structure
+→ ADD: Tinybeans Section 14 legal bases language where applicable
+Replace section cross-references per mapping above.
+
+#### 15i — Australia (Privacy Act 1988)
+→ COPY: FamilyAlbum Full Policy, Section 21
+Replace section cross-references per mapping above.
+
+---
+
 ### Section 16 — Changes to This Policy
-**Status:** TO BE DRAFTED
-**Source:** → COPY: 37signals "Changes and questions"
-Remove mailing list reference.
-Material changes → notify by email.
-Minor updates → reflected by date at top of page.
+**Status:** Drafted
+**Source:** 37signals "Changes and questions" (adapted)
+**Decisions:**
+- Mailing list reference removed — no mailing list
+- Material changes → notify by email
+- Minor updates → reflected by date at top of page only
+- Closing question line doubles as lead-in to Contact section
+
+**Content:**
+> We may update this policy as needed to comply with relevant regulations
+> and reflect any new practices. If we make material changes, we will
+> notify registered users by email and update the date at the top of this
+> page. Minor updates will be reflected by the updated date at the top of
+> this page without direct notification.
+>
+> Have any questions, comments, or concerns about this privacy policy,
+> your data, or your rights? Please get in touch at [CONTACT EMAIL].
 
 ---
 
@@ -488,6 +711,24 @@ a breach actually occurs
 
 ---
 
+### Geographic Aggregation for Ad Spend
+**Why excluded:** Feature not built yet. Co-founder flagged this as a future
+internal analytics feature — tracking state/region of userbase to inform
+ad spend decisions.
+**Trigger:** When geographic aggregation is implemented
+**Key questions to answer before building:**
+- How is location derived? (IP at signup, billing address, user profile?)
+  Each has different privacy implications
+- Is it truly aggregate only? (No per-user location stored)
+- Is it derived server-side only? (No third-party geolocation service)
+**Best reference when needed:** 37signals "General Geolocation data" section
+**Sections to update:** Section 2e Analytics, Section 3 (if any third-party
+geolocation service is used, remove "no third-party tracking" claim)
+**Legal note:** IP-derived location is considered personal data under GDPR.
+Aggregate-only, server-side derivation is the privacy-respecting approach.
+
+---
+
 ### Financial Incentives / Loyalty Programs
 **Why excluded:** No such programs exist.
 **Trigger:** If any discount or loyalty program is introduced that
@@ -507,12 +748,15 @@ what language was added or modified.*
 
 ### FORMAT:
 ```
+
 ### [DATE] — [WHAT CHANGED]
+
 **Trigger:** What site change or legal change prompted this
 **Gap created:** What was now uncovered in the policy
 **Sections updated:** Which sections were modified
 **Language added/removed:** Brief description of changes
 **Reviewed by:** Who approved the change
+
 ```
 
 ---
@@ -534,6 +778,33 @@ what language was added or modified.*
 **Reviewed by:** [NAME TBD — recommend legal review before launch]
 
 ---
+---
+
+## ⚠️ HIGH PRIORITY — BEFORE V1 LAUNCH
+
+These items are required for the policy to be accurate and complete.
+Do not launch without addressing these.
+
+- [ ] **TERMINOLOGY CONSISTENCY CHECK** — Run policy through Claude Code
+  to find and replace inconsistent usage of the following terms:
+  - "user" / "account holder" — replace with Publisher or Subscriber as appropriate
+  - "viewer" / "invited user" / "anonymous viewer" — these terms no longer
+    apply, replace with Subscriber or Website Visitor as appropriate
+  - "personal data" / "personal information" — should use "personal data"
+    except where a specific law requires its own term (COPPA, CCPA, CPRA)
+  - "service" / "site" / "app" — should use "service" throughout
+
+- [ ] **Update Section 6 — Children's Privacy** to reflect Publisher/Subscriber
+  distinction — 18+ applies to Publishers, Subscribers under 18 may access
+  with parental permission
+
+- [ ] **Update Section 7 — Your Commitments** — clickwrap applies to both
+  Publishers and Subscribers at account creation. Website Visitors (no account)
+  get browsewrap: "By browsing this site you agree to this policy."
+
+- [ ] **Update Section 9 — Content Visibility** — replace "invited users"
+  and "viewers" with "Subscribers" throughout
+
 ---
 
 ## DEVELOPER NOTES
@@ -570,7 +841,10 @@ what language was added or modified.*
 - [ ] COPPA legal review — storing photos of children as subjects (not
       users). 18+ requirement and no-AI stance are strong but get a
       one-hour legal consult before launch to confirm position.
-- [ ] General legal review recommended — especially GDPR section
+- [ ] Legal review by independent counsel before launch — even a one-hour
+      consult creates a paper trail showing independent review was sought.
+      Not blocking for soft launch but recommended before scaling.
 - [ ] Consider iubenda or similar privacy policy maintenance service
       when LLC is formed
 - [ ] CLAUDE.md drafted for privacy policy repo (for future gap analysis)
+```
