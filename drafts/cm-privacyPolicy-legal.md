@@ -360,7 +360,39 @@ Retention of Your Personal Information. Please see the “Retention Of Your Info
 
 The California "Shine the Light" law gives residents of California the right under certain circumstances to request information from us regarding the manner in which we disclose certain categories of personal information (as defined in the Shine the Light law) with third parties for their direct marketing purposes. We currently do not disclose your personal information to third parties for their own direct marketing purposes.
 
-#### 15b
+#### 15b — Colorado (CPA)
+
+The Colorado Privacy Act ("CPA") requires us to provide additional privacy-related information to Colorado residents. If you are a Colorado resident, please see this section.
+
+This section applies to information that we collect on our service or when you use our products and services that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with you or your device (for the purpose of this section, "Personal Information"). To the extent this section applies to you, the provisions of this section prevail over any conflicting provisions in other sections of this Privacy Policy.
+
+##### a. CPA Disclosures
+
+Please see Sections 2, 11, and 15a of this policy for the disclosures required under the Colorado Privacy Act, including our data collection practices, your rights, and our California disclosures which contain overlapping required information.
+
+##### b. Rights of Colorado Residents
+
+Under the CPA, you are entitled to the following rights:
+
+- **Right to Confirm and Access.** You have the right to confirm whether we Process your Personal Information and to request access to that Personal Information we have collected and maintain about you except that we will not confirm or provide Personal Information that we believe would disclose our trade secrets. You may exercise this right as described below.
+- **Right to Correct.** You have the right to correct any inaccuracies in your Personal Information Processed by us, taking into account the nature of the Personal Information and the purposes of the Processing of your Personal Information. We may also not be able to accommodate your request to change the Personal Information if we believe doing so would violate any law or legal requirement or cause the Personal Information or the information associated with the Personal Information to be incorrect.
+- **Right to Delete.** You have the right to request that we delete all of your Personal Information. We may not accommodate a request to erase your Personal Information if we believe the deletion would violate any law or legal requirement or cause any information associated with the Personal Information to be incorrect.
+- **Right to Portability.** To the extent you provide us with your Personal Information and to the extent we Process your Personal Information, you have the right to request that we provide you a copy of, or access to, all or part of such Personal Information in a portable, and to the extent technically feasible, readily usable format that allows you to transmit the Personal Information to another controller without hindrance. We shall not provide data that we believe would disclose our trade secrets.
+- **Right to opt-out.** To the extent applicable, you have the right to opt-out of Processing your Personal Information for the purposes of: (i) targeted advertising; (ii) the sale of your Personal Information; or (iii) profiling in furtherance of solely automated decisions that produce legal or similarly significant effects concerning the consumer. We do not Process Personal Information for the purpose of profiling within the meaning of the CPA.
+
+Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
+
+To exercise your right to know, delete, or correct your personal information, you may submit a request via email at [CONTACT EMAIL]
+
+We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. As such, no opt-out mechanism is required or provided.
+
+##### c. Appeal Process
+
+You may appeal a refusal by us to take action on your request to exercise any of your CPA rights within a reasonable period of time after we provide you notice of such refusal by contacting us through the contact information listed below.
+
+Within 45 days after we receive your appeal, we will inform you in writing of any action taken or not taken in response to your appeal, including any explanations for the reasons for the decision. If we require more time, and if an extension is permitted under the CPA, we will inform you of the reason and extension period in writing. If your appeal is denied, you may lodge a complaint with the Attorney General in your state through his/her contact information available at Colorado Attorney General.
+
+---
 
 #### 15c
 
