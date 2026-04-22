@@ -571,6 +571,52 @@ If you have any questions or comments about this Privacy Policy, the ways in whi
 
 ---
 
+#### 15h — EU/UK (GDPR)
+
+In addition to the other sections of this Privacy Policy, this section applies if we Process any personal data within the scope of the EU General Data Protection Regulation and/or the UK General Data Protection Regulation (collectively, the "GDPR"). If you are an EU or UK user, please read this section.
+
+##### a. Purpose and Legal Basis of Processing Personal Data
+
+We use your personal data for the following purposes based on the following legal basis:
+
+- **To provide you with our services.** Our services include the service and improvements to the service _(Performing contracts or legitimate interests)_.
+- **To provide user support.** This includes handling inquiries and complaints, troubleshooting and solving technical issues, and making necessary changes to our services _(Legitimate interests)_.
+- **For analytics.** This includes collecting and analyzing data to research usage of the service _(Consent or legitimate interests)_.
+- **To protect against cyberattacks.** This includes maintaining the privacy of our users and investigating and deterring unauthorized or illegal activity _(Legitimate interests)_.
+- **To prevent inappropriate use of our services** which may constitute criminal offenses or breaches of our terms of use _(Performing legal obligations or legitimate interests)_.
+- **Other.** As otherwise permitted or required by applicable laws _(Performing legal obligations or legitimate interests)_.
+
+When we Process your personal data based on your consent, you may withdraw your consent at any time by contacting us at [CONTACT EMAIL]. The withdrawal of your consent shall not affect the lawfulness of Processing performed based on your consent before its withdrawal.
+
+##### b. Cross-border Transfer of Personal Data
+
+Whenever we transfer, store, or otherwise Process your personal data, we take reasonable steps to safeguard the privacy of your data. When using or disclosing personal data transferred from the European Economic Area and/or the UK, we take steps to ensure adequate safeguards are in place, including relying on standard contractual clauses where applicable. You can obtain more details about the protection given to your personal data when it is transferred outside the EEA and/or the UK by contacting us at [CONTACT EMAIL].
+
+##### c. Your Rights
+
+Under the GDPR, you have the following rights:
+
+- The right to obtain information regarding the processing of your personal data and access to the personal data which we hold about you.
+- The right to request that we rectify your personal data if it is inaccurate or incomplete.
+- The right to request that we erase your personal data in certain circumstances. This may include (but is not limited to) circumstances in which:
+  - it is no longer necessary for us to retain your personal data for the purposes for which we collected it;
+  - we are only entitled to process your personal data with your consent, and you withdraw your consent; or
+  - you object to our processing of your personal data for our legitimate interests, and our legitimate interests do not override your own interests, rights and freedoms.
+- The right to request that we restrict our processing of your personal data in certain circumstances. This may include (but is not limited to) circumstances in which:
+  - you dispute the accuracy of your personal data (but only for the period of time necessary for us to verify its accuracy);
+  - we no longer need to use the personal data except for the establishment, exercise or defence of legal claims; or
+  - you object to our processing your personal data for our legitimate interests (but only for the period of time necessary for us to assess whether our legitimate interests override your own interests, rights and freedoms).
+- The right to object to us about our processing of your personal data.
+- The right to receive any personal data which we process about you on the basis of your consent or on a contract (as opposed to any other legal ground) and where the processing is carried out by automated means in a structured, commonly used and machine-readable format and/or request that we transmit that data to a recipient where this is technically feasible. Please note that this right only applies to personal data which you have provided to us.
+
+To exercise any of these rights, please contact us at [CONTACT EMAIL].
+
+##### d. EU/UK Representative
+
+We do not currently maintain an EU/UK representative as our processing of EU/UK personal data is occasional and limited in scope. If this changes we will update this policy and appoint a representative accordingly. For all data inquiries please contact us at [CONTACT EMAIL].
+
+---
+
 ### Section 16 — Changes to This Policy
 
 We may update this policy as needed to comply with relevant regulations
