@@ -117,6 +117,28 @@ _Items requiring dev implementation before policy goes live_
 - [ ] All [PLACEHOLDER] values filled in
 - [ ] Section numbers finalized and California pointer updated in preamble
 - [ ] DPAs/SCCs confirmed with AWS and Brevo — once confirmed, update Section 15h SCC language from softened Option B to affirm SCCs are in place (see Section 15h compliance notes above)
+
+  **How to complete this item:**
+
+  _AWS_ — SCCs are included in the AWS Data Processing Addendum (DPA).
+  To formally accept it:
+  1. Log into AWS console → go to **AWS Artifact**
+  2. Under "Agreements," find and accept the AWS GDPR DPA
+  3. Download a copy and keep it on file
+  This takes ~10 minutes and is free.
+
+  _Brevo_ — Brevo has a self-service DPA signing process:
+  1. Log into Brevo → **Account Settings → Legal**
+  2. Sign or download their DPA (includes SCCs)
+  If not visible in settings, request it from Brevo support.
+
+  _Payment Provider (TBD)_ — Confirm DPA availability before signing
+  up with any provider. Stripe, for example, has a self-service DPA
+  in their dashboard. Make DPA availability a selection criterion.
+
+  Once all three are done: update the change log and upgrade Section
+  15h from softened SCC language (Option B) to affirming language
+  (Option A). Store signed DPA copies alongside this repo.
 - [ ] Assess EU/UK user base at launch — if material or actively targeted, appoint an EU/UK representative and update Section 15h (see Section 15h compliance notes above)
 - [ ] COPPA legal review — storing photos of children as subjects (not
       users). 18+ requirement and no-AI stance are strong but get a
