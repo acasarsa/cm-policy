@@ -526,6 +526,51 @@ We do not sell or share your personal information for targeted advertising purpo
 
 ---
 
+#### 15g — Canada (PIPEDA)
+
+If you are a Canadian user, please read this section.
+
+##### a. Processing of Personal Data
+
+We will collect, use, communicate and otherwise process your personal data in accordance with Canadian data protection laws, as enacted or amended from time to time, such as the Personal Information Protection and Electronic Documents Act (PIPEDA) and substantially similar Canadian provincial data protection laws ("Canadian Data Protection Laws").
+
+##### b. Privacy Governance and Security Measures
+
+We strive to maintain appropriate administrative, technical, and physical safeguards that are designed to help protect personal data collected or received through Collectable Moments. We also implemented a comprehensive set of policies and practices to protect your personal data. These measures take into account the volume, sensitivity, intended use, and format of the data, and generally include the following:
+
+- A privacy framework governing the protection of personal data throughout its lifecycle. This framework defines, among other things, the roles and responsibilities of our personnel, provides a process for handling privacy complaints, and addresses the retention and destruction of personal data.
+- Other internal policies and procedures that define the roles and responsibilities of our personnel throughout the personal data life cycle and limit their access to such data on a "need-to-know" basis.
+- When personal data is collected or stored in electronic format, technical safeguards such as encryption, firewalls, passwords, antivirus software and similar measures.
+- A designated Privacy Officer to monitor compliance with Canadian Data Protection laws.
+- Employee privacy and data security training.
+
+##### c. Cross-Border Transfer
+
+We and/or our service providers may use, process and store your personal data in a country or jurisdiction outside of Canada (or outside of your province of residence). The data protection laws of those other countries might be different from the laws of the jurisdiction in which you reside and might permit the government, government agencies, courts, law enforcement agencies and security authorities in those countries to access your personal data without notice. We will take steps that are necessary to ensure that your personal data is treated in accordance with applicable Canadian Data Protection Laws.
+
+##### d. Children
+
+Please see Section 6 of this policy for our full children's privacy practices. Our age requirements exceed those required under Canadian data protection law.
+
+##### e. Privacy Rights and Choices
+
+You may have a number of rights in relation to the processing of your personal data, which are summarized below, subject to contractual and legal restrictions and reasonable prior written notice:
+
+- **Access:** You may have the right to request access to and review the data we have about you and to update your personal data.
+- **Rectification:** You may have the right to request rectification or correction of inaccurate or incomplete personal data concerning you.
+- **Consent withdrawal:** You may also have the right to withdraw your consent to our processing of your personal data at any time. Note that if you withdraw your consent to certain uses of your personal data, we may no longer be able to provide you with our Service.
+- **Choices:** You may also unsubscribe to receiving commercial emails from us at any time by following the unsubscribe link in any email that we have sent to you or by sending us an email as indicated in the "Contact Us" section (f) below.
+
+If you are in Quebec, you may also request to receive or transmit a portable copy of your personal data in a structured, commonly used technological format, subject to limitations provided under applicable data protection laws.
+
+To exercise any of these rights, please contact us using the information provided in the "Contact Us" section (f) below.
+
+##### f. Contact Us
+
+If you have any questions or comments about this Privacy Policy, the ways in which we process your personal data, or your choices and privacy rights regarding such processing, please do not hesitate to contact our Privacy Officer at [CONTACT EMAIL] or using the information provided in Section 17 — Contact below.
+
+---
+
 ### Section 16 — Changes to This Policy
 
 We may update this policy as needed to comply with relevant regulations
