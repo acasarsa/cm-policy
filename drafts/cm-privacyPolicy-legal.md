@@ -617,6 +617,20 @@ We do not currently maintain an EU/UK representative as our processing of EU/UK 
 
 ---
 
+#### 15i — Australia (Privacy Act 1988)
+
+If you are an Australian user, please read this section.
+
+In addition to the other sections of this Privacy Policy, this Section applies if the Australian Privacy Act 1988 (Cth) (the "Act") applies to our collection, use, disclosure or handling of your personal data (or "personal information", as defined under the Act).
+
+We collect, use and disclose your information for the purposes set out in Section 2 — What We Collect and Why. We may collect your sensitive information as described in Section 2 — What We Collect and Why where permitted by the Act, such as where we have received your consent or where the collection is required by or authorised under law. To the extent we collect your sensitive information, you agree to consent to our collection, use and disclosure of such sensitive personal information in accordance with this Privacy Policy and the Act.
+
+We may transfer your personal information overseas when we disclose it to the types of entities described in Section 13 — Sharing and Disclosure of Information, which may be located in the following countries: the United States.
+
+If you have any questions or concerns about our collection, use or disclosure of your personal information, or if you believe that we have not complied with this Privacy Policy or the Act, please contact us using the information provided in Section 17 — Contact below. We take all complaints seriously and aim to investigate them as soon as possible. However, if you remain dissatisfied, you can also make a formal complaint in writing to the Office of the Australian Information Commissioner.
+
+---
+
 ### Section 16 — Changes to This Policy
 
 We may update this policy as needed to comply with relevant regulations
