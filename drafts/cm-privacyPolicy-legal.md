@@ -498,7 +498,33 @@ Within 45 days after we receive your appeal, we will inform you in writing of an
 
 ---
 
-#### 15f
+#### 15f — Utah (UCPA)
+
+The Utah Consumer Privacy Act ("UCPA") requires us to provide additional privacy-related information to Utah residents. If you are a Utah resident, please see this section.
+
+This section applies to information that we collect on our service or when you use our products and services that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with you or your device (for the purpose of this section, "personal information"). To the extent this section applies to you, the provisions of this section prevail over any conflicting provisions in other sections of this Privacy Policy.
+
+##### a. UCPA Disclosures
+
+Please see Sections 2, 11, and 15a of this policy for the disclosures required under the Utah Consumer Privacy Act, including our data collection practices, your rights, and our California disclosures which contain overlapping required information.
+
+We do not sell your personal information to third parties.
+
+##### b. Rights of Utah Residents
+
+- **Right to Confirm and Access.** You have the right to confirm whether we Process your Personal Information and to request access to that Personal Information we have collected and maintain about you except that we will not confirm or provide Personal Information that we believe would disclose our trade secrets. You may exercise this right as described below.
+- **Right to Correct.** You have the right to correct any inaccuracies in your Personal Information Processed by us, taking into account the nature of the Personal Information and the purposes of the Processing of your Personal Information. We may also not be able to accommodate your request to change the Personal Information if we believe doing so would violate any law or legal requirement or cause the Personal Information or the information associated with the Personal Information to be incorrect.
+- **Right to delete.** You have the right to request that we delete your Personal Information. We may not accommodate a request to erase your Personal Information if we believe the deletion would violate any law or legal requirement or cause any information associated with the Personal Information to be incorrect.
+- **Right to Portability.** You have the right to request that we provide you a copy of, or access to, all or part of your Personal Information, to the extent technically feasible, in a portable and readily usable format and that allows you to transmit the Personal Information to another controller without impediment, where the Processing is carried out by automated means.
+- **Right to opt-out.** To the extent applicable, you have the right to opt-out of Processing your Personal Information for the purposes of: (i) targeted advertising; or (ii) the sale of your Personal Information.
+
+Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
+
+To exercise your UCPA rights, you may submit a request via email at [CONTACT EMAIL]
+
+We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
+
+---
 
 ### Section 16 — Changes to This Policy
 
