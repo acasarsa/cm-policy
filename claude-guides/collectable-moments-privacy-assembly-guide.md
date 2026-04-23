@@ -255,7 +255,7 @@ in which case the exact legal term is preserved verbatim:
 
 ---
 
-### Section 6 — Account Holders
+### Section 6 — Children's Privacy
 
 **Status:** Drafted
 **Source:** Tinybeans Section 8 (18+ language) + FamilyAlbum Section 12 (COPPA)
@@ -375,16 +375,17 @@ in which case the exact legal term is preserved verbatim:
 
 ### Section 14 — Government Requests
 
-**Status:** TO BE DRAFTED
-**Source:** → COPY: 37signals "When required under applicable law"
-**Notes:** Best written version of this language by far. Keep verbatim.
-Replace 37signals company name with Collectable Moments.
+**Status:** Drafted
+**Source:** 37signals "When required under applicable law" (verbatim, adapted)
+**Decisions:**
+- Kept verbatim — best written version of this language
+- Replaced 37signals company name with Collectable Moments
 
 ---
 
 ### Section 15 — State and International Laws
 
-**Status:** TO BE ASSEMBLED — paste-ins from reference policies
+**Status:** Complete — assembled April 2026
 
 **SECTION NUMBER MAPPING — FamilyAlbum to Collectable Moments:**
 When copying FamilyAlbum boilerplate, replace all cross-references to
@@ -535,62 +536,47 @@ Check with your team whether to include all sections or add them as you grow.
 
 
 #### 15a — California (CCPA)
-→ ALREADY COMPLETED — leave as is
-Source was: 37signals California Notice at Collection
-Note: Much cleaner than Tinybeans version since we don't sell data.
-Includes Shine the Light disclosure.
+**Status:** Complete
+Source: 37signals California Notice at Collection. Includes Shine the Light disclosure.
 
 #### 15b — Colorado (CPA)
-→ COPY: FamilyAlbum Full Policy, Section 14
-Replace section cross-references per mapping above.
-ADD after opt-out language: "We do not sell or share your personal information
-for targeted advertising purposes and have not done so in the preceding 12
-months. We do not process personal information for profiling in furtherance
-of solely automated decisions. As such, no opt-out mechanism is required or provided."
+**Status:** Complete
+Source: FamilyAlbum Section 14, adapted. Opt-out paragraph replaced with
+no-sale/no-advertising/no-profiling disclosure.
 
 #### 15c — Virginia (VCDPA)
-→ COPY: FamilyAlbum Full Policy, Section 18
-Replace section cross-references per mapping above.
-Note: Contains "We do not 'sell' your Personal Information" — keep this line.
+**Status:** Complete
+Source: FamilyAlbum Section 18, adapted. "We do not 'sell'" replaced with
+"We do not sell your personal information to third parties."
 
 #### 15d — Oregon (OCPA)
-→ COPY: FamilyAlbum Full Policy, Section 15
-Replace section cross-references per mapping above.
-ADD after opt-out language: same opt-out disclaimer as Colorado/Virginia.
+**Status:** Complete
+Source: FamilyAlbum Section 15, adapted.
 
 #### 15e — Texas (TDPSA)
-→ COPY: FamilyAlbum Full Policy, Section 16
-REMOVE: "NOTICE: We may sell your Sensitive Personal Information"
-REMOVE: The entire paragraph beginning "The TDPSA defines the sale of Personal Information..."
-REPLACE WITH: "We do not sell your Personal Information."
-Replace section cross-references per mapping above.
-Note: Texas law requires explicit disclosure on selling — your statement
-that you don't sell is both legally compliant and stronger than FamilyAlbum's version.
+**Status:** Complete
+Source: FamilyAlbum Section 16, adapted. NOTICE about selling Sensitive PI
+removed and replaced with "We do not sell your personal information to third
+parties." — legally compliant and stronger than FamilyAlbum's version.
 
 #### 15f — Utah (UCPA)
-→ COPY: FamilyAlbum Full Policy, Section 17
-Replace section cross-references per mapping above.
-Note: Contains "We do not 'sell' your Personal Information" — replace with
-"We do not sell your personal information to third parties."
-ADD after opt-out language: same opt-out disclaimer as Colorado/Virginia.
+**Status:** Complete
+Source: FamilyAlbum Section 17, adapted.
 
 #### 15g — Canada (PIPEDA)
-→ COPY: FamilyAlbum Full Policy, Section 19
-Replace section cross-references per mapping above.
-REPLACE children section (d) with cross-reference to Section 6:
-"Please see Section 6 of this policy for our full children's privacy
-practices. Our age requirements exceed those required under Canadian
-data protection law."
-Note: Canada uses age 14 as threshold but our policy is stricter at 18+.
+**Status:** Complete
+Source: FamilyAlbum Section 19, adapted. Children subsection replaced with
+cross-reference to Section 6 — our 18+ standard exceeds PIPEDA's age-14 threshold.
 
 #### 15h — EU/UK (GDPR)
-→ COPY: FamilyAlbum Section 20 as base structure
-→ ADD: Tinybeans Section 14 legal bases language where applicable
-Replace section cross-references per mapping above.
+**Status:** Complete — two open items flagged for post-launch review (see compliance notes in change log)
+Source: FamilyAlbum Section 20, adapted. Marketing/advertising legal bases
+removed — not applicable to CM. Representative section replaced with
+disclosure that we do not currently maintain an EU/UK rep.
 
 #### 15i — Australia (Privacy Act 1988)
-→ COPY: FamilyAlbum Full Policy, Section 21
-Replace section cross-references per mapping above.
+**Status:** Complete
+Source: FamilyAlbum Section 21, adapted. Country list updated to United States only.
 
 ---
 
@@ -616,10 +602,12 @@ Replace section cross-references per mapping above.
 ---
 
 ### Section 17 — Contact
-**Status:** TO BE DRAFTED — original
-> **Collectable Moments**
-> [CONTACT EMAIL]
-> [MAILING ADDRESS — optional]
+**Status:** Drafted — placeholder
+**Source:** Original
+**Decisions:**
+- Minimal for now — contact email and optional mailing address
+- Update when LLC is formed and legal entity name is confirmed
+- Mailing address optional but recommended once LLC address established
 
 ---
 ---
@@ -804,6 +792,26 @@ what language was added or modified.*
 
 ---
 
+### April 2026 — Section 15 Assembly (State & International Laws)
+**Trigger:** Initial policy build — completing planned state/international section assembly
+**Gap created:** N/A — completing planned work
+**Sections updated:** 15b (Colorado), 15c (Virginia), 15d (Oregon), 15e (Texas), 15f (Utah), 15g (Canada), 15h (EU/UK), 15i (Australia)
+**Language added/modified:**
+- All Disclosures subsections expanded from bare cross-references to plain-English explanations
+- All Disclosures subsections include: "We do not sell your personal information to third parties."
+- Opt-out paragraph standardized: no sale, no targeted advertising sharing, no profiling — no opt-out mechanism required
+- Grammar fix: "to not to receive" → "to not receive" throughout (source error in FamilyAlbum boilerplate)
+- Texas: Removed NOTICE about selling Sensitive PI; replaced with no-sell statement
+- Canada: Children subsection replaced with cross-reference to Section 6
+- EU/UK: SCC language softened (Option B — intent rather than affirmation); representative section replaced with disclosure we do not currently maintain EU/UK rep. See compliance notes below.
+- Australia: Country list updated to United States only
+**EU/UK compliance notes (two open items):**
+- _SCC language_: Using softened Option B until DPAs with AWS/Brevo are confirmed. Revert to affirming language once confirmed. See pre-launch checklist.
+- _EU/UK representative_: Not appointed. Basis: processing is occasional and limited in scope. Reassess if EU/UK user base grows materially. See pre-launch checklist.
+**Reviewed by:** [NAME TBD]
+
+---
+
 ### April 2026 — Initial Policy Draft
 **Trigger:** New site being built
 **Gap created:** N/A — first draft
@@ -877,10 +885,34 @@ Do not launch without addressing these.
 - [ ] Self-service account deletion built
 - [ ] Self-service data export built
 - [ ] Mailing address decided
-- [ ] All state/international boilerplate pasted in (Section 15a-15i)
+- [x] All state/international boilerplate pasted in (Section 15a-15i)
 - [ ] All [PLACEHOLDER] values filled in
 - [ ] Section numbers finalized and California pointer updated in preamble
-- [ ] DPAs confirmed with AWS and Brevo
+- [ ] DPAs/SCCs confirmed with AWS and Brevo — once confirmed, update Section 15h SCC language from softened Option B to affirming language
+
+  **How to complete this item:**
+
+  _AWS_ — SCCs are included in the AWS Data Processing Addendum (DPA).
+  To formally accept it:
+  1. Log into AWS console → go to **AWS Artifact**
+  2. Under "Agreements," find and accept the AWS GDPR DPA
+  3. Download a copy and keep it on file
+  This takes ~10 minutes and is free.
+
+  _Brevo_ — Brevo has a self-service DPA signing process:
+  1. Log into Brevo → **Account Settings → Legal**
+  2. Sign or download their DPA (includes SCCs)
+  If not visible in settings, request it from Brevo support.
+
+  _Payment Provider (TBD)_ — Confirm DPA availability before signing
+  up with any provider. Stripe, for example, has a self-service DPA
+  in their dashboard. Make DPA availability a selection criterion.
+
+  Once all three are done: update the change log and upgrade Section
+  15h from softened SCC language (Option B) to affirming language
+  (Option A). Store signed DPA copies alongside this repo.
+
+- [ ] Assess EU/UK user base at launch — if material or actively targeted, appoint an EU/UK representative and update Section 15h (see Section 15 change log entry above)
 - [ ] COPPA legal review — storing photos of children as subjects (not
       users). 18+ requirement and no-AI stance are strong but get a
       one-hour legal consult before launch to confirm position.

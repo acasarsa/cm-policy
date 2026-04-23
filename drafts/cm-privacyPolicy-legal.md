@@ -641,3 +641,9 @@ this page without direct notification.
 
 Have any questions, comments, or concerns about this privacy policy,
 your data, or your rights? Please get in touch at [CONTACT EMAIL].
+
+### Section 17 — Contact
+
+**Collectable Moments**
+[CONTACT EMAIL]
+[MAILING ADDRESS — optional]
