@@ -10,6 +10,97 @@ This guide serves three purposes:
 
 ---
 
+## ⚠️ HIGH PRIORITY — BEFORE V1 LAUNCH
+
+These items are required for the policy to be accurate and complete.
+Do not launch without addressing these.
+
+- [ ] **TERMINOLOGY CONSISTENCY CHECK** — Run policy through Claude Code
+      to find and replace inconsistent usage of the following terms:
+  - "user" / "account holder" — replace with Publisher or Subscriber as appropriate
+  - "viewer" / "invited user" / "anonymous viewer" — these terms no longer
+    apply, replace with Subscriber or Website Visitor as appropriate
+  - "personal data" / "personal information" — should use "personal data"
+    except where a specific law requires its own term (COPPA, CCPA, CPRA)
+  - "service" / "site" / "app" — should use "service" throughout
+
+- [x] **Update Section 6 — Children's Privacy** to reflect Publisher/Subscriber
+      distinction — 18+ applies to Publishers, Subscribers under 18 may access
+      with parental permission
+
+- [ ] **Update Section 7 — Your Commitments** — clickwrap applies to both
+      Publishers and Subscribers at account creation. Needs to be built.
+
+- [x] **Update Section 9 — Content Visibility** — replace "invited users"
+      and "viewers" with "Subscribers" throughout
+
+---
+
+## DEVELOPER NOTES
+
+_Items requiring dev implementation before policy goes live_
+
+- [ ] Self-host Google Fonts — remove disclosure note from Section 4 when done
+- [ ] Implement clickwrap at signup — checkbox required, consent recorded
+- [ ] Build self-service account deletion — update Section 10 when live
+- [ ] Build self-service data export — update Section 11 when live
+- [x] Confirm AWS region — fill in [AWS REGION TBD] throughout
+- [ ] Confirm analytics implementation — expand Section 2e when confirmed
+- [x] Sign/confirm DPAs with AWS and Brevo — verify during account setup
+- [ ] Add upload-screen consent notice — "by uploading you confirm you
+      have the right to share this content" (ties to Section 7)
+
+---
+
+## PRE-LAUNCH CHECKLIST
+
+- [x] AWS region confirmed and filled in throughout
+- [ ] Payment provider decided and filled in
+- [ ] Contact/privacy email set up and filled in throughout
+- [ ] Google Fonts self-hosted
+- [ ] Intro paragraph final phrasing signed off
+- [ ] Clickwrap implemented at signup
+- [ ] Self-service account deletion built
+- [ ] Self-service data export built
+- [ ] Mailing address decided
+- [x] All state/international boilerplate pasted in (Section 15a-15i)
+- [ ] All [PLACEHOLDER] values filled in
+- [x] Section numbers finalized and state/country pointer updated in preamble
+- [x] DPAs/SCCs confirmed with AWS and Brevo — once confirmed, update Section 15h SCC language from softened Option B to affirming language
+
+  **How to complete this item:**
+
+  _AWS_ — SCCs are included in the AWS Data Processing Addendum (DPA).
+  To formally accept it:
+  1. Log into AWS console → go to **AWS Artifact**
+  2. Under "Agreements," find and accept the AWS GDPR DPA
+  3. Download a copy and keep it on file
+     This takes ~10 minutes and is free.
+
+  _Brevo_ — Brevo has a self-service DPA signing process:
+  1. Log into Brevo → **Account Settings → Legal**
+  2. Sign or download their DPA (includes SCCs)
+     If not visible in settings, request it from Brevo support.
+
+  _Payment Provider (TBD)_ — Confirm DPA availability before signing
+  up with any provider. Stripe, for example, has a self-service DPA
+  in their dashboard. Make DPA availability a selection criterion.
+
+  Once all three are done: update the change log and upgrade Section
+  15h from softened SCC language (Option B) to affirming language
+  (Option A). Store signed DPA copies alongside this repo.
+
+- [ ] Assess EU/UK user base at launch — if material or actively targeted, appoint an EU/UK representative and update Section 15h (see Section 15 change log entry above)
+- [ ] COPPA legal review — storing photos of children as subjects (not
+      users). 18+ requirement and no-AI stance are strong but get a
+      one-hour legal consult before launch to confirm position.
+- [ ] Legal review by independent counsel before launch — even a one-hour
+      consult creates a paper trail showing independent review was sought.
+      Not blocking for soft launch but recommended before scaling.
+- [ ] Consider iubenda or similar privacy policy maintenance service
+      when LLC is formed
+- [x] CLAUDE.md drafted for privacy policy repo (for future gap analysis)
+
 ## POLICY STRUCTURE — CURRENT STATE
 
 ### Preamble / Promise _(top of page)_
@@ -223,7 +314,7 @@ in which case the exact legal term is preserved verbatim:
 **Required Services Table:**
 | Service | Provider | Data Shared | Purpose |
 |---|---|---|---|
-| File & Photo Storage | AWS — [AWS REGION TBD] | Uploaded photos and media | Secure file storage |
+| File & Photo Storage | AWS — us-east-1 | Uploaded photos and media | Secure file storage |
 | Email Delivery | Brevo (formerly Sendinblue) | Email address, name | Transactional emails only |
 | Payment Processing | [PAYMENT PROVIDER TBD] | Billing information | Subscription processing |
 
@@ -378,6 +469,7 @@ in which case the exact legal term is preserved verbatim:
 **Status:** Drafted
 **Source:** 37signals "When required under applicable law" (verbatim, adapted)
 **Decisions:**
+
 - Kept verbatim — best written version of this language
 - Replaced 37signals company name with Collectable Moments
 
@@ -830,96 +922,4 @@ what language was added or modified.*
 
 ---
 ---
-
-## ⚠️ HIGH PRIORITY — BEFORE V1 LAUNCH
-
-These items are required for the policy to be accurate and complete.
-Do not launch without addressing these.
-
-- [ ] **TERMINOLOGY CONSISTENCY CHECK** — Run policy through Claude Code
-  to find and replace inconsistent usage of the following terms:
-  - "user" / "account holder" — replace with Publisher or Subscriber as appropriate
-  - "viewer" / "invited user" / "anonymous viewer" — these terms no longer
-    apply, replace with Subscriber or Website Visitor as appropriate
-  - "personal data" / "personal information" — should use "personal data"
-    except where a specific law requires its own term (COPPA, CCPA, CPRA)
-  - "service" / "site" / "app" — should use "service" throughout
-
-- [ ] **Update Section 6 — Children's Privacy** to reflect Publisher/Subscriber
-  distinction — 18+ applies to Publishers, Subscribers under 18 may access
-  with parental permission
-
-- [ ] **Update Section 7 — Your Commitments** — clickwrap applies to both
-  Publishers and Subscribers at account creation. Website Visitors (no account)
-  get browsewrap: "By browsing this site you agree to this policy."
-
-- [ ] **Update Section 9 — Content Visibility** — replace "invited users"
-  and "viewers" with "Subscribers" throughout
-
----
-
-## DEVELOPER NOTES
-
-*Items requiring dev implementation before policy goes live*
-
-- [ ] Self-host Google Fonts — remove disclosure note from Section 4 when done
-- [ ] Implement clickwrap at signup — checkbox required, consent recorded
-- [ ] Build self-service account deletion — update Section 10 when live
-- [ ] Build self-service data export — update Section 11 when live
-- [ ] Confirm AWS region — fill in [AWS REGION TBD] throughout
-- [ ] Confirm analytics implementation — expand Section 2e when confirmed
-- [ ] Sign/confirm DPAs with AWS and Brevo — verify during account setup
-- [ ] Add upload-screen consent notice — "by uploading you confirm you
-      have the right to share this content" (ties to Section 7)
-
----
-
-## PRE-LAUNCH CHECKLIST
-
-- [ ] AWS region confirmed and filled in throughout
-- [ ] Payment provider decided and filled in
-- [ ] Contact/privacy email set up and filled in throughout
-- [ ] Google Fonts self-hosted
-- [ ] Intro paragraph final phrasing signed off
-- [ ] Clickwrap implemented at signup
-- [ ] Self-service account deletion built
-- [ ] Self-service data export built
-- [ ] Mailing address decided
-- [x] All state/international boilerplate pasted in (Section 15a-15i)
-- [ ] All [PLACEHOLDER] values filled in
-- [ ] Section numbers finalized and California pointer updated in preamble
-- [ ] DPAs/SCCs confirmed with AWS and Brevo — once confirmed, update Section 15h SCC language from softened Option B to affirming language
-
-  **How to complete this item:**
-
-  _AWS_ — SCCs are included in the AWS Data Processing Addendum (DPA).
-  To formally accept it:
-  1. Log into AWS console → go to **AWS Artifact**
-  2. Under "Agreements," find and accept the AWS GDPR DPA
-  3. Download a copy and keep it on file
-  This takes ~10 minutes and is free.
-
-  _Brevo_ — Brevo has a self-service DPA signing process:
-  1. Log into Brevo → **Account Settings → Legal**
-  2. Sign or download their DPA (includes SCCs)
-  If not visible in settings, request it from Brevo support.
-
-  _Payment Provider (TBD)_ — Confirm DPA availability before signing
-  up with any provider. Stripe, for example, has a self-service DPA
-  in their dashboard. Make DPA availability a selection criterion.
-
-  Once all three are done: update the change log and upgrade Section
-  15h from softened SCC language (Option B) to affirming language
-  (Option A). Store signed DPA copies alongside this repo.
-
-- [ ] Assess EU/UK user base at launch — if material or actively targeted, appoint an EU/UK representative and update Section 15h (see Section 15 change log entry above)
-- [ ] COPPA legal review — storing photos of children as subjects (not
-      users). 18+ requirement and no-AI stance are strong but get a
-      one-hour legal consult before launch to confirm position.
-- [ ] Legal review by independent counsel before launch — even a one-hour
-      consult creates a paper trail showing independent review was sought.
-      Not blocking for soft launch but recommended before scaling.
-- [ ] Consider iubenda or similar privacy policy maintenance service
-      when LLC is formed
-- [ ] CLAUDE.md drafted for privacy policy repo (for future gap analysis)
 ```

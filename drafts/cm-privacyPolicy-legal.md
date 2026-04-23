@@ -13,7 +13,7 @@ Collectable Moments ("We", "our service") was built because your family's memori
 
 ### Who This Applies To
 
-This policy applies to visitors, prospective users, and registered users of Collectable Moments. We refer collectively to these individuals as "you" throughout this policy. If you are a California resident, please see Section [TBD] for additional disclosures required by California law.
+This policy applies to visitors, prospective users, and registered users of Collectable Moments. We refer collectively to these individuals as "you" throughout this policy. If you are a resident of California, Colorado, Virginia, Oregon, Texas, Utah, Canada, the European Union, the United Kingdom, or Australia, please see Section 15 for additional disclosures required by the laws of your state or country.
 
 ### Definitions
 
@@ -21,7 +21,7 @@ In this Privacy Policy:
 
 (a) "Personal data" means any data which relates to you and from which you can be identified, or is reasonably capable of being associated with you. It may include contact details, other personal information as defined under applicable data protection laws, photographs, and videos.
 
-(b) "Processing" means any activity or operation that is carried out in respect of your personal data, including collecting, storing, using, transferring, and deleting.
+(b) "Process or Processing" means any activity or operation that is carried out in respect of your personal data, including collecting, storing, using, transferring, and deleting.
 
 (c) "Service" refers to the Collectable Moments website and all features available through it.
 
@@ -42,9 +42,9 @@ Our guiding principle is to collect only what we need. Here's what that means in
 
 We collect different amounts of data depending on how you use Collectable Moments. We do not collect any personal data unless you voluntarily provide it.
 
-As a **Publisher** you create and share content via a paid subscription. We collect your name, email address, and password (stored securely — never in plain text). You may optionally upload a profile photo. Billing information is described in Section 2b and content storage in Section 2c.
+As a **Publisher** you create and share content via a paid subscription. We collect your first and last name, email address, and password (stored securely — never in plain text). Billing information is described in Section 2b and content storage in Section 2c.
 
-As a **Subscriber** you access and follow Publisher content. We collect your name, email address, and password (stored securely — never in plain text). We also store your account status, email frequency preferences, notification preferences, and last access timestamp.
+As a **Subscriber** you access and follow Publisher content. We collect your name and email address. We also store your account status, email frequency preferences, notification preferences, and last access timestamp.
 
 #### 2b. Billing Information
 
@@ -99,10 +99,10 @@ A cookie is a small piece of text stored on your device by your web browser.
 On Collectable Moments, we use cookies only to keep you logged in. We do not
 use third-party cookies, tracking cookies, or advertising cookies.
 
-| Cookie           | Purpose                         | Expires |
-| ---------------- | ------------------------------- | ------- |
-| `_cm_remember`   | Keeps account holders logged in | 1 year  |
-| `_cm_subscriber` | Keeps invited viewers logged in | 1 year  |
+| Cookie           | Purpose                     | Expires |
+| ---------------- | --------------------------- | ------- |
+| `_cm_remember`   | Keeps Publishers logged in  | 1 year  |
+| `_cm_subscriber` | Keeps Subscribers logged in | 1 year  |
 
 You can adjust cookie settings or block cookies in your browser settings,
 though doing so will prevent you from remaining logged in to the service.
@@ -155,7 +155,7 @@ immediately at [CONTACT EMAIL].
 There are no public profiles, no public feeds, and no publicly searchable
 content on Collectable Moments. Access to content is controlled entirely
 by you through private links and invitations. We are not responsible for
-how you or your invited users choose to share or distribute access to
+how you or your Subscribers choose to share or distribute access to
 content outside of the service.
 
 ### Section 10 — Data Retention and Deletion
@@ -586,11 +586,11 @@ We use your personal data for the following purposes based on the following lega
 - **To prevent inappropriate use of our services** which may constitute criminal offenses or breaches of our terms of use _(Performing legal obligations or legitimate interests)_.
 - **Other.** As otherwise permitted or required by applicable laws _(Performing legal obligations or legitimate interests)_.
 
-When we Process your personal data based on your consent, you may withdraw your consent at any time by contacting us at [CONTACT EMAIL]. The withdrawal of your consent shall not affect the lawfulness of Processing performed based on your consent before its withdrawal.
+When we process your personal data based on your consent, you may withdraw your consent at any time by contacting us at [CONTACT EMAIL]. The withdrawal of your consent shall not affect the lawfulness of processing performed based on your consent before its withdrawal.
 
 ##### b. Cross-border Transfer of Personal Data
 
-Whenever we transfer, store, or otherwise Process your personal data, we take reasonable steps to safeguard the privacy of your data. When using or disclosing personal data transferred from the European Economic Area and/or the UK, we take steps to ensure adequate safeguards are in place, including relying on standard contractual clauses where applicable. You can obtain more details about the protection given to your personal data when it is transferred outside the EEA and/or the UK by contacting us at [CONTACT EMAIL].
+Whenever we transfer, store, or otherwise Process your personal data, we take reasonable steps to safeguard the privacy of your data. When using or disclosing personal data transferred from the European Economic Area and/or the UK, we adhere to the standard contractual clauses approved by the European Commission and/or the Government of the UK, or adopt other means under European Union law and/or UK law to ensure adequate safeguards. You can obtain more details about the protection given to your personal data when it is transferred outside the EEA and/or the UK by contacting us at [CONTACT EMAIL].
 
 ##### c. Your Rights
 
