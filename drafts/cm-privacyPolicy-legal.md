@@ -44,7 +44,9 @@ We collect different amounts of data depending on how you use Collectable Moment
 
 As a **Publisher** you create and share content via a paid subscription. We collect your first and last name, email address, and password (stored securely — never in plain text). Billing information is described in Section 2b and content storage in Section 2c.
 
-As a **Subscriber** you access and follow Publisher content. We collect your name and email address. We also store your account status, email frequency preferences, notification preferences, and last access timestamp.
+As a **Subscriber** you access and follow Publisher content. We collect your name and email address. We also store your account status, email frequency preferences, notification preferences, and last access timestamp. We record which posts you have accessed and when, so that Publishers can understand engagement with their content and so that you receive accurate unread post indicators.
+
+We store notification records for both Publishers and Subscribers. These include records of comments and replies made on posts, and whether those notifications have been read. These records are used to deliver in-service notifications and are not shared with third parties.
 
 #### 2b. Billing Information
 
@@ -111,7 +113,7 @@ though doing so will prevent you from remaining logged in to the service.
 
 Collectable Moments is a platform designed for parents, grandparents,
 and family members to privately share photos of the people they love.
-Publishers must be 18 years of age or older. Viewers under 18 may only
+Publishers must be 18 years of age or older. Subscribers under 18 may only
 access the service with the express permission of a parent or legal
 guardian.
 
