@@ -9,7 +9,7 @@ description: The privacy of your data — and it is your data, not ours! — is 
 
 _Last updated: April 3, 2026_
 
-Collectable Moments ("We", "our service") was built because your family's memories shouldn't come with a price tag paid in data. We do not use your photos or data to train AI models, sell to third parties, or target you with ads. The only third-party services we use are those strictly required to operate the site — hosting, email delivery, and payments. No third-party algorithms or tracking.
+Collectable Moments ("We", "our service") was built because your family's memories shouldn't come with a price tag paid in data. We do not use your photos or data to train AI models, sell to third parties, or target you with ads. The only third-party services we use are those strictly required to operate the service — hosting, email delivery, and payments. No third-party algorithms or tracking.
 
 ### Who This Applies To
 
@@ -62,7 +62,7 @@ We log the IP address used to create an account to help prevent spam and abuse. 
 
 #### 2e. Analytics
 
-We collect aggregate usage data to understand how the service is being used and to make improvements. This data is processed in-house only, never shared with third-party analytics platforms, and never used to identify you individually.
+We collect aggregate usage data to understand how the service is being used and to make improvements. This data is Processed in-house only, never shared with third-party analytics platforms, and never used to identify you individually.
 
 #### 2f. Communications
 
@@ -91,7 +91,7 @@ We use a limited number of third-party service providers to operate the service.
 | Email Delivery | Brevo (formerly Sendinblue) | Email address, name | Transactional emails only |
 | Payment Processing | [PAYMENT PROVIDER TBD] | Billing information | Subscription processing |
 
-_\*Note: Our site currently loads fonts from Google's CDN, which results in your IP address being sent to Google as a standard browser request. We are in the process of self-hosting these fonts to eliminate this. We will update this policy when that change is complete._
+_\*Note: The service currently loads fonts from Google's CDN, which results in your IP address being sent to Google as a standard browser request. We are in the process of self-hosting these fonts to eliminate this. We will update this policy when that change is complete._
 
 ### Section 5 — Cookies
 
@@ -186,7 +186,7 @@ A self-service account deletion feature is coming soon.
 At Collectable Moments, we strive to apply the same data rights to all
 users, regardless of their location. Some of these rights include:
 
-- **Right to Withdraw Consent.** Where we process your personal data
+- **Right to Withdraw Consent.** Where we Process your personal data
   based on your consent, you have the right to withdraw that consent
   at any time by contacting us at [CONTACT EMAIL]. Note that withdrawal
   of consent may result in closing your account.
@@ -198,7 +198,7 @@ users, regardless of their location. Some of these rights include:
 
 - **Right of Access.** This includes your right to access the personal
   data we gather about you, and your right to obtain information about
-  the sharing, storage, security and processing of that information.
+  the sharing, storage, security and Processing of that information.
 
 - **Right to Correction.** You have the right to request correction of
   your personal data.
@@ -216,7 +216,7 @@ users, regardless of their location. Some of these rights include:
   supervisory authority.
 
 - **Right to Restrict Processing.** This is your right to request
-  restriction of how and why your personal data is used or processed.
+  restriction of how and why your personal data is used or Processed.
 
 - **Right to Opt-Out of Sale or Sharing.** You have the right to
   opt-out of the sale or sharing of your personal data for advertising
@@ -224,7 +224,7 @@ users, regardless of their location. Some of these rights include:
   purposes, never have, never will.)
 
 - **Right to Object.** You have the right, in certain situations, to
-  object to how or why your personal data is processed.
+  object to how or why your personal data is Processed.
 
 - **Right to Portability.** You have the right to receive the personal
   data we have about you and the right to transmit it to another party.
