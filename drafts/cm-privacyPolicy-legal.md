@@ -68,7 +68,23 @@ We collect aggregate usage data to understand how the service is being used and 
 
 #### 2f. Communications
 
-When you contact us with a question or to ask for help, we keep that correspondence, including your email address, so that we have a history of past correspondence to reference if you reach out in the future.
+**Support correspondence** — When you contact us with a question or to ask for help, we keep that correspondence, including your email address, to maintain a history of past correspondence.
+
+The service sends two categories of email:
+
+**Transactional emails** are required to operate your account and cannot be opted out of while your account remains active.
+
+- **Login links** — Delivered to Subscribers when they request access to content. Sent on demand only.
+- **Subscription status** — Sent to Subscribers when a subscription is pending approval, approved, or declined.
+- **Collaborator invitations** — Sent to individuals a Publisher invites to help manage their site.
+- **New subscriber alerts** — Sent to Publishers when someone subscribes or requests approval.
+
+**Preference-based emails** are sent only to Subscribers and can be adjusted or stopped at any time from your subscription settings.
+
+- **New post notifications** — Sent on behalf of Publishers when new content is published. Delivered individually or as daily, weekly, or monthly digests, based on your frequency preference.
+- **Interaction notifications** — Sent when another user replies to or reacts to your comment. Delivered immediately or in a batched digest, based on your preferences.
+
+To manage your preferences, use the "Manage preferences" link included in post digest emails, or log in and visit your subscription settings directly. Setting your delivery frequency to "unsubscribed" stops all preference-based emails for that Publisher subscription.
 
 ### Section 3 — What We Do Not Collect
 

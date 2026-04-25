@@ -15,7 +15,7 @@ This guide serves three purposes:
 These items are required for the policy to be accurate and complete.
 Do not launch without addressing these.
 
-- [ ] **TERMINOLOGY CONSISTENCY CHECK** — Run policy through Claude Code
+- [x] **TERMINOLOGY CONSISTENCY CHECK** — Run policy through Claude Code
       to find and replace inconsistent usage of the following terms:
   - "user" / "account holder" — replace with Publisher or Subscriber as appropriate
   - "viewer" / "invited user" / "anonymous viewer" — these terms no longer
