@@ -19,7 +19,7 @@ This policy applies to visitors, prospective users, and registered users of Coll
 
 In this Privacy Policy:
 
-(a) "Personal data" means any data which relates to you and from which you can be identified, or is reasonably capable of being associated with you. It may include contact details, other personal information as defined under applicable data protection laws, photographs, and videos.
+(a) "Personal data" means any data which relates to you and from which you can be identified, or is reasonably capable of being associated with you. It may include contact details, other personally identifiable information as defined under applicable data protection laws, photographs, and videos.
 
 (b) "Process or Processing" means any activity or operation that is carried out in respect of your personal data, including collecting, storing, using, transferring, and deleting.
 
