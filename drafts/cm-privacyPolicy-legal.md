@@ -28,7 +28,7 @@ In this Privacy Policy:
 ### Section 1 — Who We Are
 
 Collectable Moments is currently independently operated by our team based in the United States. We intend to transition to a limited liability company (LLC) in the future. This policy will be updated to reflect that change when it occurs.
-Contact: [CONTACT EMAIL]
+Contact: casarsa.co@gmail.com
 
 For the purpose of applicable data protection laws, Collectable Moments is the data controller with respect to your personal data.
 
@@ -105,9 +105,9 @@ We use a limited number of third-party service providers to operate the service.
 **Required services:**
 | Service | Provider | Data Shared | Purpose |
 |---|---|---|---|
-| File & Photo Storage | Amazon Web Services (AWS) — [AWS REGION TBD] | Uploaded photos and media | Secure file storage |
+| File & Photo Storage | Amazon Web Services (AWS) — us-east-1 | Uploaded photos and media | Secure file storage |
 | Email Delivery | Brevo (formerly Sendinblue) | Email address, name | Transactional emails only |
-| Payment Processing | [PAYMENT PROVIDER TBD] | Billing information | Subscription processing |
+| Payment Processing | Stripe | Billing information | Subscription processing |
 
 _\*Note: The service currently loads fonts from Google's CDN, which results in your IP address being sent to Google as a standard browser request. We are in the process of self-hosting these fonts to eliminate this. We will update this policy when that change is complete._
 
@@ -137,19 +137,20 @@ We do not knowingly collect personal data from anyone under 13 without
 verifiable parental consent. If we learn that we have collected personal
 data from a child under 13 without parental consent, we will delete that
 information immediately. If you believe this may have occurred, please
-contact us at [CONTACT EMAIL].
+contact us at casarsa.co@gmail.com.
 
 ### Section 7 — Your Commitments
 
-By creating an account and agreeing to this Privacy Policy, Publishers
-confirm that they are 18 years of age or older. Publishers also confirm
-that they have the right to upload and share any content they post,
+By creating an account and checking the box agreeing to this Privacy Policy,
+Publishers confirm that they are 18 years of age or older. Publishers also
+confirm that they have the right to upload and share any content they post,
 including any photos or videos in which other individuals appear.
 
-By accessing shared content as a Viewer, you agree to this Privacy
-Policy. Viewers access the service at the invitation of a Publisher.
-We are not responsible for how Publishers choose to share access to
-their content.
+By entering their email address and checking the box agreeing to this Privacy
+Policy at the point of accepting a Publisher's invitation, Subscribers confirm
+that they are 18 years of age or older, or that they have the express permission
+of a parent or legal guardian. We are not responsible for how Publishers choose
+to share access to their content.
 
 ### Section 8 — Data Security
 
@@ -166,7 +167,7 @@ your data, including:
 
 No method of transmission or storage is 100% secure. If you have reason
 to believe that your account has been compromised, please contact us
-immediately at [CONTACT EMAIL].
+immediately at casarsa.co@gmail.com.
 
 ### Section 9 — Content Visibility
 
@@ -196,7 +197,7 @@ Specific retention periods:
 - **Legal holds:** We may retain data longer than the above periods if
   required by applicable law.
 
-Account deletion can be requested by contacting us at [CONTACT EMAIL].
+Account deletion can be requested by contacting us at casarsa.co@gmail.com.
 A self-service account deletion feature is coming soon.
 
 ### Section 11 — Your Rights
@@ -206,7 +207,7 @@ users, regardless of their location. Some of these rights include:
 
 - **Right to Withdraw Consent.** Where we Process your personal data
   based on your consent, you have the right to withdraw that consent
-  at any time by contacting us at [CONTACT EMAIL]. Note that withdrawal
+  at any time by contacting us at casarsa.co@gmail.com. Note that withdrawal
   of consent may result in closing your account.
 
 - **Right to Know.** You have the right to know what personal data is
@@ -247,7 +248,7 @@ users, regardless of their location. Some of these rights include:
 - **Right to Portability.** You have the right to receive the personal
   data we have about you and the right to transmit it to another party.
   A self-service data export tool is coming soon — contact us at
-  [CONTACT EMAIL] in the meantime.
+  casarsa.co@gmail.com in the meantime.
 
 - **Right to not Be Subject to Automated Decision-Making.** You have
   the right to object to and prevent any decision that could have a
@@ -269,13 +270,13 @@ users, regardless of their location. Some of these rights include:
   not collect sensitive personal information as defined under applicable
   law beyond what is strictly necessary to operate the service.
 
-To exercise any of these rights, contact us at [CONTACT EMAIL]. We may
+To exercise any of these rights, contact us at casarsa.co@gmail.com. We may
 need to verify your identity before responding to your request.
 
 ### Section 12 — Location of Data
 
 Our service and data infrastructure are located in the United States
-([AWS REGION TBD]). If you are located in the European Union, UK, or
+(us-east-1). If you are located in the European Union, UK, or
 elsewhere outside of the United States, please be aware that any
 personal data you provide to us will be transferred to and stored in
 the United States. By using our service and/or providing us with your
@@ -402,7 +403,7 @@ Under the CPA, you are entitled to the following rights:
 
 Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
 
-To exercise your right to know, delete, or correct your personal information, you may submit a request via email at [CONTACT EMAIL]
+To exercise your right to know, delete, or correct your personal information, you may submit a request via email at casarsa.co@gmail.com
 
 We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
 
@@ -434,7 +435,7 @@ We do not sell your personal information to third parties.
 - **Right to Portability.** To the extent you provide us with your Personal Information and to the extent we Process your Personal Information, you have the right to request that we provide you a copy of, or access to, all or part of such Personal Information in a portable, and to the extent technically feasible, readily usable format that allows you to transmit the Personal Information to another controller without hindrance. We shall not provide data that we believe would disclose our trade secrets.
 - **Right to opt-out.** To the extent applicable, you have the right to opt-out of Processing your Personal Information for the purposes of: (i) targeted advertising; (ii) the sale of your Personal Information; or (iii) profiling in furtherance of solely automated decisions that produce legal or similarly significant effects concerning the consumer.
 
-To exercise your VCDPA rights, you may submit a request via email at [CONTACT EMAIL]
+To exercise your VCDPA rights, you may submit a request via email at casarsa.co@gmail.com
 
 We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
 
@@ -470,7 +471,7 @@ Under the OCPA, you are entitled to the following rights:
 
 Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
 
-To exercise your OCPA rights, you may submit a request via email at [CONTACT EMAIL]
+To exercise your OCPA rights, you may submit a request via email at casarsa.co@gmail.com
 
 We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
 
@@ -504,7 +505,7 @@ We do not sell your personal information to third parties.
 
 Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
 
-To exercise your TDPSA rights, you may submit a request via email at [CONTACT EMAIL]
+To exercise your TDPSA rights, you may submit a request via email at casarsa.co@gmail.com
 
 We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
 
@@ -538,7 +539,7 @@ We do not sell your personal information to third parties.
 
 Additionally, you have the right to not receive discriminatory treatment if and when you exercise your rights conferred by applicable law.
 
-To exercise your UCPA rights, you may submit a request via email at [CONTACT EMAIL]
+To exercise your UCPA rights, you may submit a request via email at casarsa.co@gmail.com
 
 We do not sell or share your personal information for targeted advertising purposes and have not done so in the preceding 12 months. We do not process personal information for profiling in furtherance of solely automated decisions. As such, no opt-out mechanism is required or provided.
 
@@ -585,7 +586,7 @@ To exercise any of these rights, please contact us using the information provide
 
 ##### f. Contact Us
 
-If you have any questions or comments about this Privacy Policy, the ways in which we process your personal data, or your choices and privacy rights regarding such processing, please do not hesitate to contact our Privacy Officer at [CONTACT EMAIL] or using the information provided in Section 17 — Contact below.
+If you have any questions or comments about this Privacy Policy, the ways in which we process your personal data, or your choices and privacy rights regarding such processing, please do not hesitate to contact our Privacy Officer at casarsa.co@gmail.com or using the information provided in Section 17 — Contact below.
 
 ---
 
@@ -604,11 +605,11 @@ We use your personal data for the following purposes based on the following lega
 - **To prevent inappropriate use of our services** which may constitute criminal offenses or breaches of our terms of use _(Performing legal obligations or legitimate interests)_.
 - **Other.** As otherwise permitted or required by applicable laws _(Performing legal obligations or legitimate interests)_.
 
-When we process your personal data based on your consent, you may withdraw your consent at any time by contacting us at [CONTACT EMAIL]. The withdrawal of your consent shall not affect the lawfulness of processing performed based on your consent before its withdrawal.
+When we process your personal data based on your consent, you may withdraw your consent at any time by contacting us at casarsa.co@gmail.com. The withdrawal of your consent shall not affect the lawfulness of processing performed based on your consent before its withdrawal.
 
 ##### b. Cross-border Transfer of Personal Data
 
-Whenever we transfer, store, or otherwise Process your personal data, we take reasonable steps to safeguard the privacy of your data. When using or disclosing personal data transferred from the European Economic Area and/or the UK, we adhere to the standard contractual clauses approved by the European Commission and/or the Government of the UK, or adopt other means under European Union law and/or UK law to ensure adequate safeguards. You can obtain more details about the protection given to your personal data when it is transferred outside the EEA and/or the UK by contacting us at [CONTACT EMAIL].
+Whenever we transfer, store, or otherwise Process your personal data, we take reasonable steps to safeguard the privacy of your data. When using or disclosing personal data transferred from the European Economic Area and/or the UK, we adhere to the standard contractual clauses approved by the European Commission and/or the Government of the UK, or adopt other means under European Union law and/or UK law to ensure adequate safeguards. You can obtain more details about the protection given to your personal data when it is transferred outside the EEA and/or the UK by contacting us at casarsa.co@gmail.com.
 
 ##### c. Your Rights
 
@@ -627,11 +628,11 @@ Under the GDPR, you have the following rights:
 - The right to object to us about our processing of your personal data.
 - The right to receive any personal data which we process about you on the basis of your consent or on a contract (as opposed to any other legal ground) and where the processing is carried out by automated means in a structured, commonly used and machine-readable format and/or request that we transmit that data to a recipient where this is technically feasible. Please note that this right only applies to personal data which you have provided to us.
 
-To exercise any of these rights, please contact us at [CONTACT EMAIL].
+To exercise any of these rights, please contact us at casarsa.co@gmail.com.
 
 ##### d. EU/UK Representative
 
-We do not currently maintain an EU/UK representative as our processing of EU/UK personal data is occasional and limited in scope. If this changes we will update this policy and appoint a representative accordingly. For all data inquiries please contact us at [CONTACT EMAIL].
+We do not currently maintain an EU/UK representative as our processing of EU/UK personal data is occasional and limited in scope. If this changes we will update this policy and appoint a representative accordingly. For all data inquiries please contact us at casarsa.co@gmail.com.
 
 ---
 
@@ -658,10 +659,9 @@ page. Minor updates will be reflected by the updated date at the top of
 this page without direct notification.
 
 Have any questions, comments, or concerns about this privacy policy,
-your data, or your rights? Please get in touch at [CONTACT EMAIL].
+your data, or your rights? Please get in touch at casarsa.co@gmail.com.
 
 ### Section 17 — Contact
 
 **Collectable Moments**
-[CONTACT EMAIL]
-[MAILING ADDRESS — optional]
+casarsa.co@gmail.com

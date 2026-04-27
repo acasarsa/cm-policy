@@ -1,5 +1,6 @@
 # Collectable Moments — Privacy Policy (Full Legal Version)
-*Last updated: April 2026*
+
+_Last updated: April 2026_
 
 ---
 
@@ -22,17 +23,21 @@ Contact: [CONTACT EMAIL]
 Our guiding principle is to collect only what is necessary to operate the Service.
 
 ### 2a. Account Information
+
 When you create an account, we collect your name, email address, and password (stored in hashed form). We use this information to authenticate you, communicate with you about your account, and provide access to the Service.
 
 ### 2b. Photos and Media
+
 Photos and videos you upload are stored on our servers and are accessible only to you and the individuals you explicitly invite. We do not access, analyze, or process your photos or videos for any purpose other than storing and delivering them to you and your invited users.
 
 **We do not use photos or videos — including photos of minors — for AI training, machine learning, facial recognition, or any automated image analysis. This prohibition is absolute.**
 
 ### 2c. Technical Data
+
 We may collect technical information including your IP address, browser type, operating system, and device identifiers. This data is used solely for security, fraud prevention, and to maintain the integrity of the Service.
 
 ### 2d. Communications
+
 If you contact us for support, we retain that correspondence to provide assistance and maintain a support history.
 
 ---
@@ -50,11 +55,11 @@ If you contact us for support, we retain that correspondence to provide assistan
 
 We use a limited number of third-party service providers to operate the Service. These providers are contractually restricted from using your data for any purpose other than providing their service to us.
 
-| Service | Provider | Purpose |
-|---|---|---|
-| Hosting / Infrastructure | Amazon Web Services (AWS) | Data storage and site hosting — US region: [AWS REGION TBD] |
-| Email Delivery | [EMAIL PROVIDER TBD] | Account emails (confirmations, password resets) |
-| Payment Processing | [PAYMENT PROVIDER TBD] | Subscription billing (if applicable) |
+| Service                  | Provider                  | Purpose                                              |
+| ------------------------ | ------------------------- | ---------------------------------------------------- |
+| Hosting / Infrastructure | Amazon Web Services (AWS) | Data storage and site hosting — US region: us-east-1 |
+| Email Delivery           | [EMAIL PROVIDER TBD]      | Account emails (confirmations, password resets)      |
+| Payment Processing       | [PAYMENT PROVIDER TBD]    | Subscription billing (if applicable)                 |
 
 We do not use advertising networks, behavioral analytics platforms, or marketing automation services.
 
@@ -140,7 +145,7 @@ To exercise any of these rights, contact us at [CONTACT EMAIL]. We will respond 
 
 ## 12. Location of Data
 
-Our servers are located in the United States ([AWS REGION TBD]). If you access the Service from outside the United States, your data will be transferred to and stored in the United States. By using the Service, you consent to this transfer.
+Our servers are located in the United States (us-east-1). If you access the Service from outside the United States, your data will be transferred to and stored in the United States. By using the Service, you consent to this transfer.
 
 If you are located in the European Union or United Kingdom, please note that your data may be transferred to a country that does not have the same data protection laws as your home country. We take reasonable steps to ensure your data is handled securely in accordance with this policy. [EU/UK DATA TRANSFER SAFEGUARDS TBD — consider Standard Contractual Clauses if EU users are anticipated.]
 

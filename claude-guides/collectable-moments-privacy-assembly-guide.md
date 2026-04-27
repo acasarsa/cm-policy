@@ -42,8 +42,21 @@ _Items requiring dev implementation before policy goes live_
 
 - [ ] Self-host Google Fonts — remove disclosure note from Section 4 when done
 - [ ] Implement clickwrap at signup — checkbox required, consent recorded
+  - Add `terms_accepted_at` (timestamp) and `terms_version` (date string matching
+    policy "Last updated" date, e.g. "2026-04-27") to both `subscribers` and
+    `users` tables. Set both fields when the checkbox is submitted.
+  - Subscriber clickwrap: at the email entry step when accepting a Publisher's
+    invitation. Publisher clickwrap: at account creation.
+  - On next login after a material policy change, compare user's `terms_version`
+    against current policy date — intercept with re-consent screen if they differ.
+    See "Minor vs. Material Policy Changes" section below for guidance on when
+    re-consent is required.
 - [ ] Build self-service account deletion — update Section 10 when live
 - [ ] Build self-service data export — update Section 11 when live
+- [ ] Auto-delete rejected Subscribers — decide on retention window (suggested:
+      30 days after `rejected_at`) and build a cleanup job. Update Section 10
+      to disclose the retention period when built. Currently rejected Subscriber
+      records (name, email) are retained indefinitely with no active purpose.
 - [x] Confirm AWS region — fill in [AWS REGION TBD] throughout
 - [ ] Confirm analytics implementation — expand Section 2e when confirmed
 - [x] Sign/confirm DPAs with AWS and Brevo — verify during account setup
@@ -861,6 +874,43 @@ incentives disclosure
 **Sections to update:** State/international section for California
 
 ---
+---
+
+## MINOR VS. MATERIAL POLICY CHANGES
+
+Use this guidance to decide whether a policy update requires a new clickwrap
+(re-consent) or email notification only.
+
+### Minor changes — email notification only
+Section 16 of the policy already commits to notifying users by email for
+material changes. Minor changes only require updating the "Last updated" date.
+
+- New state or international law sections added
+- Typo or clarity fixes
+- Contact info or mailing address updates
+- Disclosures added for data practices already in place (e.g. adding 2f email
+  disclosure for emails already being sent)
+- Formatting or structural changes
+- Removing features and their associated disclosures
+
+### Material changes — new clickwrap required on next login
+Compare the user's stored `terms_version` against the current policy date.
+If they differ and the change was material, intercept on next login with a
+re-consent screen before allowing access.
+
+- New categories of personal data being collected
+- New third-party processors added to Section 4
+- New purposes for using existing data
+- Longer data retention periods
+- Reduction of user rights
+- Changes to legal basis for processing (GDPR)
+- Any change that would surprise a reasonable user
+
+### When in doubt
+Flag for legal review rather than making the call unilaterally. If the change
+touches data collection, retention, sharing, or user rights — treat it as
+material.
+
 ---
 
 ## CHANGE LOG

@@ -1,5 +1,6 @@
 # Collectable Moments — Privacy Policy (Plain Language)
-*Last updated: April 2026*
+
+_Last updated: April 2026_
 
 ---
 
@@ -30,6 +31,7 @@ Collectable Moments is currently operated by an individual. We plan to transitio
 ## What information do you need from me to sign up?
 
 To create an account you'll need to provide:
+
 - Your name
 - Your email address
 - A password
@@ -71,7 +73,7 @@ Collectable Moments is built specifically with children's privacy in mind. Here'
 
 We try to keep third-party involvement to a minimum. The services we do use are limited to:
 
-- **Hosting infrastructure** (e.g. Amazon Web Services, located in the United States — specific region: [AWS REGION TBD])
+- **Hosting infrastructure** (e.g. Amazon Web Services, located in the United States — specific region: us-east-1)
 - **Email delivery** ([EMAIL SERVICE TBD]) — used only to send you account-related emails like confirmations and password resets
 - **Payment processing** ([PAYMENT PROVIDER TBD]) — if applicable. We do not store your credit card information.
 
@@ -115,7 +117,7 @@ We will only disclose user data if required by law — a valid warrant, subpoena
 
 ## Where is my data stored?
 
-Our servers are located in the United States ([AWS REGION TBD]). If you are outside the US, your data will be transferred to and stored in the US when you use this site.
+Our servers are located in the United States (us-east-1). If you are outside the US, your data will be transferred to and stored in the US when you use this site.
 
 ---
 
